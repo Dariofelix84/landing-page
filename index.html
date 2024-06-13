@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>website</title>
+		
+		<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+		<aside class="sidebar">
+				<nav>
+						<ul class="menu">
+								<li class="menu-item"><a href="#" class="menu-link">Página inicial</a></li>
+								<li class="menu-item"><a href="#" class="menu-link">Sobre</a></li>
+								<li class="menu-item"><a href="#" class="menu-link">Serviços</a></li>
+								<li class="menu-item"><a href="#" class="menu-link">Contatos</a></li>
+						</ul>
+				</nav>
+		</aside>
+
+		<header>
+				<div class="header-wrapper">
+						<div class="nav">
+								<div class="hamburger">
+										<div class="line" id="line1"></div>
+										<div class="line" id="line2"></div>
+										<div class="line" id="line3"></div>
+								</div>
+		
+								<h2 class="logo">Logo</h2>
+						</div>
+
+						<div  class="container-nav">
+								<nav class="navegacao">
+										<a href="index.html">Página inicial</a>
+										<a href="#">Sobre</a>
+										<a href="#">Serviços</a>
+										<a href="#">Contatos</a>
+								</nav>
+								<button class="btnLogin-popup">Login</button>
+						</div>
+				</div>
+		</header>
+
+		<div class="wrapper">
+				<span class="icon-close"><ion-icon name="close"></ion-icon></span>
+
+				<div class="form-box login">
+						<h2>Login</h2>
+						<form action="#">
+								<div class="input-box">
+										<span class="icon"><ion-icon name="mail"></ion-icon></span>
+										<input type="email" required>
+										<label>Email</label>
+								</div>
+								
+								<div class="input-box">
+										<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+										<input type="password" required>
+										<label>Senha</label>
+								</div>
+								<div class="remember-forgot">
+										<label><input type="checkbox">Lembre-me</label>
+										<a href="#">Esqueceu sua senha?</a>
+								</div>
+								<button type="submit" class="btn">Conectar</button>
+								<div class="login-registro">
+										<p>Não tem uma conta?<a href="#" class="registrar-link">Registrar</a></p>
+
+								</div>
+						</form>
+				</div>
+
+				<div class="form-box registrar">
+						<h2>Registrar</h2>
+						<form action="#">
+								<div class="input-box">
+										<span class="icon"><ion-icon name="person"></ion-icon></span>
+										<input type="text" required>
+										<label>Nome de usúario</label>
+								</div>
+								<div class="input-box">
+										<span class="icon"><ion-icon name="mail"></ion-icon></span>
+										<input type="email" required>
+										<label>Email</label>
+								</div>
+								
+								<div class="input-box">
+										<span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+										<input type="password" required>
+										<label>Senha</label>
+								</div>
+								<div class="remember-forgot">
+										<label><input type="checkbox">Eu aceito os termos e condições</label>
+						
+								</div>
+								<button type="submit" class="btn">Registrar</button>
+								<div class="login-registro">
+										<p>Já tem uma conta?<a href="#" class="login-link">Login</a></p>
+
+								</div>
+						</form>
+				</div>
+		</div>
+
+
+		<script src="./script.js"></script>
+
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
