@@ -7,26 +7,26 @@ const sidebar = document.querySelector(".sidebar");
 const hamburger = document.querySelector(".hamburger");
 const headerWrapper = document.querySelector(".header-wrapper");
 
-hamburger.addEventListener("click", ()=> {
+hamburger.addEventListener("click", () => {
     headerWrapper.classList.toggle("show-menu")
     sidebar.classList.toggle("sidebar-show")
 });
 
-registrarLink.addEventListener('click', ()=> {
+registrarLink.addEventListener('click', () => {
     wrapper.classList.add('active')   
 });
 
-loginLink.addEventListener('click', ()=> {
+loginLink.addEventListener('click', () => {
     wrapper.classList.remove('active')
 });
 
-btnPopup.addEventListener('click', ()=> {
+btnPopup.addEventListener('click', () => {
     wrapper.classList.add('active-popup');
     sidebar.classList.remove("sidebar-show")
     headerWrapper.classList.remove("show-menu")
 });
 
-iconClose.addEventListener('click', ()=> {
+iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
 
